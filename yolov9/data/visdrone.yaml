@@ -1,0 +1,23 @@
+# Đường dẫn gốc
+path: /home/manh/Projects/ban/yolov9/data/visdrone
+
+# Đường dẫn ảnh (tương đối so với path)
+train: VisDrone2019-DET-train/images
+val: VisDrone2019-DET-val/images
+test: VisDrone2019-DET-test-dev/images
+
+# Số lượng class (10 class)
+nc: 10
+
+# Tên class
+names:
+  0: pedestrian
+  1: people
+  2: bicycle
+  3: car
+  4: van
+  5: truck
+  6: tricycle
+  7: awning-tricycle
+  8: bus
+  9: motor
